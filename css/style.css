@@ -85,7 +85,7 @@ header {
   box-shadow: none !important;
 }
 .c_d_menu[data-bs-popper] {
-  top: 55px;
+  top: 64px;
   left: -327px;
 }
 .c_d_menu {
@@ -354,10 +354,11 @@ header {
   border-radius: 0% !important;
 }
 .tab1 ul li:last-child {
-  margin-right: 0 !important;
+  margin-right: 0 !important ;
 }
 .c_s1 {
   width: 100%;
+  height: 380px;
 }
 .s1_img {
   width: 350px;
@@ -418,6 +419,7 @@ header {
 }
 .s_nipro {
   margin-top: 40px;
+  cursor: pointer;
 }
 .s_nipro:hover .l_arrow {
   background-color: #333333;

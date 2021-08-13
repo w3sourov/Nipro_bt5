@@ -1,5 +1,11 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (min-width: 0px) and (max-width: 575.98px) {
+  /* menubar start */
+  .menu ul li {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  /* menubar end */
   /* search start */
   .c_d_menu {
     min-width: 300px;
@@ -45,6 +51,10 @@
   .s1_img {
     width: 285px;
     height: 304px;
+  }
+  .w_icon i {
+    margin-top: 28%;
+    margin-left: 41%;
   }
   /* my work end */
   /* my nipro start */
@@ -146,6 +156,12 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /* menubar start */
+  .menu ul li {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  /* menubar end */
   /* search start */
   .c_d_menu[data-bs-popper] {
     top: 55px;
@@ -179,6 +195,10 @@
   /* about end */
   .work {
     padding-bottom: 40px;
+  }
+  .w_icon i {
+    margin-top: 25%;
+    margin-left: 37%;
   }
   .s1_img {
     width: 250px;
@@ -271,6 +291,12 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /* menubar start */
+  .menu ul li {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  /* menubar end */
   /* search start */
   .c_d_menu[data-bs-popper] {
     top: 55px;
@@ -399,6 +425,12 @@
     margin-bottom: 25px !important;
   }
   /* about end */
+  /* portfolio start */
+  .tab1 {
+    margin-left: 180px;
+    margin-top: 0px;
+  }
+  /* portfolio end */
   /* my work start */
   .s1_img {
     width: 300px;
